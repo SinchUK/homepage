@@ -73,3 +73,8 @@
   .name {
     font-size: 46px;
   }
+  .accent {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: aliceblue;
+  }
