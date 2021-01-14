@@ -69,3 +69,7 @@
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
+
+  .name {
+    font-size: 46px;
+  }
