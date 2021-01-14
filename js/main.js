@@ -31,7 +31,4 @@ window.addEventListener('load', (event) => {
     }
   }
   typeWriter();
-  
-  
-
 });
