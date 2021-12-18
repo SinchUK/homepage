@@ -129,7 +129,7 @@ body {
       border-radius: 50%;
       width: 100px;
       height: 100px;
-      object-fit: cover;
+      object-fit: contain;
       border: 3px solid;
       border-color: var(--text-decoration-color);
   }
@@ -160,16 +160,49 @@ body {
     color: var(--secondary-text-color);
     text-align: justify;
 }
+/* .skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
 
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.content__head {
+    border: 1px solid #f7b758;
+    border-radius: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #f7b758;
+}
+.label {
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(117, 231, 117);
+    background-color: rgb(117, 231, 117);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: small;
 }
 
 .skills__text {
     color: var(--secondary-text-color);
     text-align: justify;
+    display: flex;
+    flex-direction: row;
+}
+.skills__text ul li {
+    list-style: none;
+}
+.skills__items {
+    margin-right: 25px;
 }
 
 /* Experience and additional info styles */
@@ -216,6 +249,10 @@ body {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
+}
+.experiences__company-project-name a {
+    text-decoration: none;
+    color: black;
 }
 
 .experiences__company-project-responsibilities {
@@ -266,4 +303,30 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.flag__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9.5px;
+}
+.language-flag {
+    width: 20px;
+    height: 25px;
+    margin-right: 10px;
+}
+.languge {
+    margin-right: 20px;
+}
+.languge:hover {
+    color: #f7b758;
+}
+.experiences__company-project-name a:hover {
+    color: #f7b758;
+}
+.contact-info__block a:hover {
+    color: black;
 }
